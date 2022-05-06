@@ -1,0 +1,77 @@
+{
+    "skills": [
+        {
+            "type":"Web Framework",
+            "name":"React",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+            "link":""
+        },
+        {
+            "type":"Web Framework",
+            "name":"Angular",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"Typescript",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"Javascript",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"Python",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"C++",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"HTML",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+            "link":""
+        },
+        {
+            "type":"Programming",
+            "name":"CSS",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+            "link":""
+        },
+        {
+            "type":"CSS Framework",
+            "name":"Tailwind",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+            "link":""
+        },
+        {
+            "type":"Prototyping Tool",
+            "name":"Figma",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+            "link":""
+        },
+        {
+            "type":"Code Management",
+            "name":"Git",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+            "link":""
+        },
+        {
+            "type":"Cloud Technology",
+            "name":"Firebase",
+            "img":"https://firebase.google.com/downloads/brand-guidelines/SVG/logo-built_white.svg",
+            "link":""
+        }
+    ]
+
+}

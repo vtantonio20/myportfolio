@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "name":"InterVids",
+            "img":"images/intervids1.png",
+            "desc":"Major contributor in the creation of an eLearning platfrom focusing on asynchrnous video student interaction.",
+            "skills": [
+                "Tailwind CSS",
+                "Angular",
+                "Firebase"
+            ]
+        },
+        {
+            "name":"Minesweeper",
+            "img":"https://media.glassdoor.com/sql/265350/intervid-squarelogo-1637748437210.png",
+            "desc":"Intervids Description",
+            "skills": [
+                "Tailwind CSS",
+                "Angular",
+                "Firebase"
+            ]
+        }
+    ]
+}

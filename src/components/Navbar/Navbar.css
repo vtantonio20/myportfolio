@@ -1,0 +1,182 @@
+*, *::before, *::after {box-sizing: border-box;}
+nav{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    background-color:black;
+
+}
+nav .container{
+    width:clamp(320px, 90vw, 1280px);
+    display: flex;
+    justify-content: space-between;
+}
+nav .left-container{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav .logo{
+    aspect-ratio: 1/1;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--darker);
+    background-color: var(--white);
+    font-size: 1.667rem;
+    font-weight: 100;
+    padding:1rem;
+}  
+nav .logo:hover, nav .logo:active{
+    transition-duration: 300ms;
+    color:var(--white);
+    border-color: var(--pink);
+    background-color: var(--black);
+    animation: logo-rotate forwards 300ms linear;
+}
+@keyframes logo-rotate{
+    0% { transform:scale(1.15) rotate(0deg);}
+    100%  { transform: scale(1) rotate(360deg);}
+}
+
+nav .right-container{
+    height: 100%;
+}
+@media all and (min-width:800px){
+    .nav-list {
+        display: flex;
+        height: 100%;
+    }
+    .navbar-item{
+        user-select: none;
+        cursor: pointer;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+
+    }
+    .navbar-item:hover{
+        height: 100%;
+        transition-duration: 300ms;
+        color: black;
+        background-color: white;
+    }
+}
+
+
+@media all and (max-width:800px){
+    nav .right-container{
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .right-container .toggle-button{
+        position:absolute;
+        right:5vw;
+        height:66.7%;
+    }
+
+    nav .right-container .toggle-button:active{
+        transition: 150ms;
+        background-color: var(--charcoal);
+    }
+    nav .right-container .hamburger{
+        aspect-ratio: 1/1;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    nav .hamburger .bar {
+        background-color: var(--white);
+        height: 0.25rem;
+        width: 100%;
+        border-radius: 99px;
+    }
+    nav .right-container .x{
+        aspect-ratio: 1/1;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .right-container .x .xl {
+        position: absolute;
+        background-color: var(--white);
+        height: 2rem;
+        width: .25rem;
+        border-radius: 99px;
+        transform: rotate(45deg);
+    }
+    nav .right-container .x .xr {
+        position: absolute;
+        background-color: var(--white);
+        height: 2rem;
+        width: .25rem;
+        border-radius: 99px;
+        transform: rotate(315deg);
+        
+    }
+    .nav-list{
+        position: absolute;
+        top:80px;
+        left:0.5rem;
+        width: calc(100% - 1rem);
+        flex-direction: column;
+        height:auto;
+        background-color: white;
+        border-bottom-left-radius:1rem;
+        border-bottom-right-radius:1rem;
+        animation: slide-menu-in 150ms 0s linear;
+        border:black 2px solid;
+        border-top: 0px;
+        z-index: 2;
+    }
+    .navbar-item{
+        cursor: pointer;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 400;
+        padding: 1rem;
+    }
+    .navbar-item:hover{
+        transition-duration: 300ms;
+        background-color: var(--light-gray);
+    }
+    #last-navbar-item{
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
+
+@keyframes slide-menu-in{
+    from {
+        transform-origin: top center;
+        transform: scaleY(0);
+    }
+    to {
+        transform-origin: top center;
+        transform: scaleY(1);
+    }
+}

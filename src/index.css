@@ -1,0 +1,56 @@
+*, *::before, *::after {box-sizing: border-box;}
+:root {
+  --black: rgb(0, 0, 0);
+  --darker: #181818;
+  --white: rgb(255, 255, 255);
+  --charcoal: rgb(33, 33, 40);
+
+  --darker-gray: #e3e4e7;
+  --light-gray: rgb(243, 243, 248);
+  --gray: rgb(200,204,209);
+  --text-primary: black;
+  --text-blue: rgb(49, 94, 230);
+  --accent: purple;
+  
+
+  --base:#363636;
+  --base1: #242F40;
+  --base2: #E5E5E5;
+  --base3: #CCA43B;
+  --base4: #FFFFFF;
+  --pink: #C22085;
+
+  --page-margin: 5rem;
+}
+body {
+    margin: 0;
+    font-family: 'Oswald';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-weight: 400;
+  font-size: clamp(3.5rem, 10vw, 5rem);
+  margin:0;
+}
+
+h2{
+  font-weight: 400;
+  font-size: clamp(2.625rem, 7.5vw, 3.75rem);
+  margin:0;
+}
+h4{
+  font-weight: 400;
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  margin:0;
+}
+h5{
+  font-weight: 400;
+  font-size: clamp(0.875rem, 2.5vw, 1.25rem);
+  margin:0;
+}

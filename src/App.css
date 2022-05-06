@@ -1,0 +1,19 @@
+
+
+.app-background {
+    min-height: 100vh;
+    color: black;
+    overflow-x: hidden;
+    background-color: white;
+}
+section{
+  display: grid;
+  width:100vw;
+}
+
+@media (max-width:800px){
+  section{
+    place-items: center;
+    margin-left:0rem;
+  }
+}

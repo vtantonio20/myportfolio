@@ -1,0 +1,44 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+.skill-card{
+    aspect-ratio: 1/1;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:2px solid;
+    padding:0.5rem;
+}
+
+.skill-card:hover, .skill-card:active{
+    transform: scale(1.125);
+    transition: 500ms;
+    background-color: var(--darker);
+    color:var(--white);
+    border:0px;
+
+}
+
+.skill-card header, .skill-card footer{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-card header h3, .skill-card footer h5{
+    margin: 0;
+    font-weight: 350;
+    font-size: xx-large;
+}
+.skill-card footer h5{
+    font-size: x-large;
+}
+.skill-card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-card img{
+    aspect-ratio: 1/1;
+    width:50%;
+}
