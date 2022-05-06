@@ -23,6 +23,8 @@ nav .left-container{
 }
 nav .logo{
     aspect-ratio: 1/1;
+    width:75px;
+    height:75px;
     user-select: none;
     display: flex;
     justify-content: center;
@@ -34,7 +36,6 @@ nav .logo{
     background-color: var(--white);
     font-size: 1.667rem;
     font-weight: 100;
-    padding:1rem;
 }  
 nav .logo:hover, nav .logo:active{
     transition-duration: 300ms;

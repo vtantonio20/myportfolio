@@ -12,8 +12,9 @@ export default function Experience() {
                         <label htmlFor="ES"><h5>Espire Services</h5></label>
                         <ul id="ES">
                             <li>Incoming Front End Developer Internship</li>
-
                             <li>June 2022 - August 2022</li>
+                            <li>Vienna, VA</li>
+
                         </ul>
                     </div>
                 </div>
@@ -25,13 +26,15 @@ export default function Experience() {
                             <li>Bachelor of Science in Computer Science</li>
                             <li>Cumulative GPA: 3.65</li>
                             <li>Expected Graduation Date: 05/2023 </li>
+                            <li>Gainesville, FL </li>
                         </ul>
-
                         <label htmlFor="GCSC"><h5>Gulf Coast State College</h5></label>
                         <ul id="GCSC">
                             <li>Associate of Arts in Liberal Arts</li>
                             <li>Cumulative GPA: 3.7</li>
                             <li>Graduation Date: 12/2020 </li>
+                            <li>Panama City, FL </li>
+
                         </ul>
                     </div>
                 </div>
