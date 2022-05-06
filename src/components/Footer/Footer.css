@@ -10,8 +10,10 @@
     padding-bottom:1rem;
 }
 #Contact .content-box{
-    width: clamp(320px, calc(100vw - var(--page-margin)*2), 1280px);
-
+    border-right:0px;
+    border-left:0px;
+    border-bottom: 0px;
+    padding:1rem;
 }
 #Contact .contact-container{ 
     display:flex;

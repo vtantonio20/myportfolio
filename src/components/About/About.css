@@ -1,3 +1,4 @@
+
 #About h1{
     text-align:center;
     padding-top:1rem;
@@ -6,13 +7,6 @@
 #About .about-container{
     display:flex;
     justify-content:center;
-}
-#About .content-box{
-    padding-top:5rem;
-    padding-bottom:5rem;
-    width: clamp(320px, calc(100vw - var(--page-margin)*2), 1280px);
-    border:2px solid;
-    border-radius: 1rem;
 }
 #About .container-wrapper{
     display:flex;
@@ -25,7 +19,8 @@
     width:clamp(16rem, 30vw, 24rem)
 }
 @media (max-width: 800px){
-    #About .left-container {padding: 1rem; }
+    #About h2{text-align: center;}
+    #About .left-container {padding: 1rem;}
     #About .right-container{padding: 1rem;}
     #About .container-wrapper{
         flex-direction: column;

@@ -20,7 +20,7 @@
   --base4: #FFFFFF;
   --pink: #C22085;
 
-  --page-margin: 5rem;
+  --page-margin: 2rem;
 }
 body {
     margin: 0;
@@ -53,4 +53,18 @@ h5{
   font-weight: 400;
   font-size: clamp(0.875rem, 2.5vw, 1.25rem);
   margin:0;
+}
+
+.content-box{
+  padding-top:5rem;
+  padding-bottom:5rem;
+  width: clamp(320px, calc(100vw - var(--page-margin)*2), 1080px);
+  border:2px solid;
+}
+
+@media (max-width:800px){
+  .content-box{
+    border:0px; border-top:2px solid; border-bottom:2px solid;
+    padding-top:1rem; padding-bottom:2rem; 
+  }
 }

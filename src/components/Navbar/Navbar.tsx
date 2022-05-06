@@ -25,8 +25,8 @@ export default function Navbar() {
             {(showMobileMenu || screenWidth > 800) && (
                 <div className='nav-list'>
                         <Link className="navbar-item" to="About" spy={true} smooth={true} offset={-50} duration={500}>About</Link>
-                        <Link className="navbar-item" to="Skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
                         <Link className="navbar-item" to="Experience" spy={true} smooth={true} offset={-50} duration={500}>Experience</Link>
+                        <Link className="navbar-item" to="Skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
                         <Link className="navbar-item" to="Projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
                         <Link className="navbar-item" to="Contact" spy={true} smooth={true} offset={-50} duration={500}>Contact</Link>
                         <Link className="navbar-item" id='last-navbar-item' to={'./resume.pdf'} target='_blank' rel='noopener noreferrer'>Resume</Link>
