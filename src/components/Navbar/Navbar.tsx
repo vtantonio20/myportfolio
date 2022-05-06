@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { Link } from "react-scroll";
 import './Navbar.css'
 export default function Navbar() {
+    const pdf = require('../../assets/pdf/resume.pdf')
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const toggleMobileMenuList = () => {
@@ -29,7 +30,7 @@ export default function Navbar() {
                         <Link className="navbar-item" to="Skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
                         <Link className="navbar-item" to="Projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
                         <Link className="navbar-item" to="Contact" spy={true} smooth={true} offset={-50} duration={500}>Contact</Link>
-                        <Link className="navbar-item" id='last-navbar-item' to={'./resume.pdf'} target='_blank' rel='noopener noreferrer'>Resume</Link>
+                        <a className="navbar-item" id='last-navbar-item' href={pdf} target='_blank' rel='noopener noreferrer'>Resume</a>
                     </div>
                     )}
                     <div className='toggle-button' onClick={toggleMobileMenuList}>

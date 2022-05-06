@@ -9,7 +9,7 @@ export default function Skills(props: { skillsArray: Skill[]; }) {
     return (
         <section id='Skills' className='skills'>
             <h1>My skills</h1>
-            <div className="skills-container">
+            <div className="content-container">
                 <div className="content-box">
                     <div className='grid'>
                         {

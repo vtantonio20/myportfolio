@@ -3,10 +3,12 @@ import Link from 'react-scroll/modules/components/Link'
 import './About.css'
 export default function About() {
   const ME = require('../../assets/images/ME.jpg')
+  const pdf = require('../../assets/pdf/resume.pdf')
+
   return (
     <section id="About">
       <h1>About Me</h1>
-      <div className="about-container">
+      <div className="content-container">
         <div className="content-box">
           <div className="container-wrapper">
             <span className="left-container">
@@ -21,6 +23,7 @@ export default function About() {
             <li><Link to="Skills" spy={true} smooth={true} offset={-50} duration={500}><h5>Skills</h5></Link></li>
             <li><Link to="Projects" spy={true} smooth={true} offset={-50} duration={500}><h5>Projects</h5></Link></li>
             <li><Link to="Contact" spy={true} smooth={true} offset={-50} duration={500}><h5>Contact</h5></Link></li>
+            <li><a href={pdf} target='_blank' rel='noopener noreferrer'><h5>Resume</h5></a></li>
           </ul>
         </div>
       </div>

@@ -4,9 +4,9 @@ export default function Experience() {
   return (
     <section id='Experience'>
         <h1>Experience</h1>
-        <div className="experience-container">
+        <div className="content-container">
             <div className="content-box">
-                <div className="content-container">
+                <div className="section-container">
                     <h4>Work Experience</h4>
                     <div className="left-padding">
                         <label htmlFor="ES"><h5>Espire Services</h5></label>
@@ -14,11 +14,10 @@ export default function Experience() {
                             <li>Incoming Front End Developer Internship</li>
                             <li>June 2022 - August 2022</li>
                             <li>Vienna, VA</li>
-
                         </ul>
                     </div>
                 </div>
-                <div className="content-container">
+                <div className="section-container">
                     <h4>Education</h4>
                     <div className="left-padding">
                         <label htmlFor="UF"><h5>University of Florida</h5></label>
@@ -34,7 +33,6 @@ export default function Experience() {
                             <li>Cumulative GPA: 3.7</li>
                             <li>Graduation Date: 12/2020 </li>
                             <li>Panama City, FL </li>
-
                         </ul>
                     </div>
                 </div>

@@ -54,12 +54,22 @@ h5{
   font-size: clamp(0.875rem, 2.5vw, 1.25rem);
   margin:0;
 }
+h1,h2{
+  text-align:center;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
 
 .content-box{
   padding-top:5rem;
   padding-bottom:5rem;
   width: clamp(320px, calc(100vw - var(--page-margin)*2), 1080px);
   border:2px solid;
+}
+
+.content-container{
+  display:flex;
+  justify-content:center;
 }
 
 @media (max-width:800px){
