@@ -11,7 +11,7 @@ export default function Experience() {
                     <div className="left-padding">
                         <label htmlFor="ES"><h5>Espire Services</h5></label>
                         <ul id="ES">
-                            <li>Incoming Front End Developer Internship</li>
+                            <li>Incoming Front End Developer Intern</li>
                             <li>June 2022 - August 2022</li>
                             <li>Vienna, VA</li>
                         </ul>
