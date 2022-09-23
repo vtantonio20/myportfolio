@@ -5,11 +5,10 @@ import './Skills.css'
 
 export default function Skills(props: { skillsArray: Skill[]; }) {
     const skillsArray:Skill[] = props.skillsArray;
-
     return (
         <section id='Skills' className='skills'>
             <h1>My skills</h1>
-            <div className="content-container">
+            <div className="flex-center">
                 <div className="content-box">
                     <div className='grid'>
                         {

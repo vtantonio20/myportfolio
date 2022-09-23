@@ -4,12 +4,12 @@ export default function Experience() {
   return (
     <section id='Experience'>
         <h1>Experience</h1>
-        <div className="content-container">
+        <div className="flex-center">
             <div className="content-box">
                 <div className="section-container">
                     <h4>Work Experience</h4>
                     <div className="left-padding">
-                        <label htmlFor="ES"><h5>Espire Services</h5></label>
+                        <label htmlFor="ES"><h5>Espire Services (Canceled)</h5></label>
                         <ul id="ES">
                             <li>Incoming Front End Developer Intern</li>
                             <li>June 2022 - August 2022</li>

@@ -6,16 +6,18 @@ export default function About() {
   const pdf = require('../../assets/pdf/resume.pdf')
 
   return (
+    
     <section id="About">
-      <h1>About Me</h1>
-      <div className="content-container">
+      <label htmlFor="About"></label><h1>About Me</h1>
+      <div className="flex-center">
         <div className="content-box">
           <div className="container-wrapper">
-            <span className="left-container">
+            <span className="side">
               <h2>Hi, my name is<br/>Victor Torres!</h2>
               <p> I am a third year student interested in software development and am studying Computer Science at the University of Florida. I enjoy creating visually appealing, responsive, front end applications using HTML, CSS and Typescript.</p> 
             </span>
-            <span className="right-container"><img src={ME}></img></span>
+            <span className="side">
+              <img src={ME} ></img></span>
           </div>
         
           <ul className="bottom-container">

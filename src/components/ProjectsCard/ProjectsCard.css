@@ -1,0 +1,11 @@
+.projects-card header{
+    padding-bottom: 1rem;
+    margin: 0;
+    font-weight: 400;
+    font-size: xx-large;
+    text-align:center;
+}
+@media (max-width: 800px){.projects-card header{font-size: x-large;}}
+.projects-card .image{
+    width:20%;
+}

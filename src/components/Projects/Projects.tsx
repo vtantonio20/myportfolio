@@ -1,11 +1,21 @@
 import React from 'react'
+import ProjectsCard from '../ProjectsCard/ProjectsCard'
 import './Projects.css'
 export default function Projects() {
   const INTERVIDS = require('../../assets/images/InterVids.jpg')
   return (
     <section id='Projects'>
         <h1>Projects</h1>
-        <div className="content-container">
+        <div className="flex-center">
+          <div className="content-box">
+            <div className="p-grid">
+              <ProjectsCard img={INTERVIDS}></ProjectsCard>
+              <ProjectsCard img={INTERVIDS}></ProjectsCard>
+
+            </div>
+          </div>
+
+          {/*
             <div className={"content-box" + ' ' + 'projects'}>
               <article>
                 <header>
@@ -26,6 +36,7 @@ export default function Projects() {
               </article>
 
             </div>
+            */}
         </div>
     </section>
   )

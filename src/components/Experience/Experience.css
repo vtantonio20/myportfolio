@@ -4,12 +4,9 @@
     font-style: italic;
 }
 
-#Experience .content-container .content-box{
+#Experience .content-box{
     padding:1rem;    
 }
 #Experience .section-container{
     border-bottom: 1px solid;
-}
-
-.left-padding{
 }

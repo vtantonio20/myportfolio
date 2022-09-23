@@ -67,7 +67,7 @@ h1,h2{
   border:2px solid;
 }
 
-.content-container{
+.flex-center{
   display:flex;
   justify-content:center;
 }
