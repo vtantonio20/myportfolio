@@ -1,8 +1,8 @@
 {
     "skills": [
         {
-            "type":"Web Framework",
-            "name":"React",
+            "type":"Mobile Framework",
+            "name":"React Native",
             "img":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
             "link":""
         },

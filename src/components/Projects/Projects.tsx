@@ -9,50 +9,24 @@ export default function Projects() {
         <div className="flex-center">
           <div className="content-box">
             <div className="section-container">
-              <div className="left-padding">
+              <div style={{padding:'1rem'}}>
+              <h4>Mobile Application</h4>
                 <label htmlFor="FITTRACKR"><h5>FitTrackr</h5></label>
                   <ul id="FITTRACKR">
-                      <li>Fitness app to track gym gains.</li>
-                      <iframe width="420" height="315"
-                      src="https://youtu.be/t63OnGeiizw">
-                      </iframe> 
-                      <iframe
-        width="560"
-        height="315"
-        src="https://youtu.be/t63OnGeiizw"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-                      <li><a href="https://youtu.be/t63OnGeiizw" target='__blank__'>link </a></li>
+                      <li>
+                        As part of my personal projects, I developed FitTrackr, a fitness tracker app built with React Native and Flask, designed to help users track their weight training progression. The app features seamless Google sign-in integration, ensuring a secure and user-friendly experience. FitTrackr leverages native iOS and Android libraries to deliver a smooth and familiar user experience. The core functionality of the app allows users to create workouts and set exercises associated with those workouts. It also includes a robust set of suggested workouts and a clean, descriptive muscle map visual, helping users understand the targeted muscle groups for each suggested workout. The idea for this app came to me when I found myself journaling each workout in the notes app on my phone. I realized there were probably applications available that could simplify this process, but when researching them, I found them to be too cumbersome or not appealing enough for my needs. With my software development skills, I decided to create my own solution.
+                      </li>
+                      
+                      <li className='flex-center'>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t63OnGeiizw?si=36K7DSWI21ZNcn98" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                      </li>
+                      <li style={{listStyleType:'none'}}>
+                        <a href="https://github.com/vtantonio20/FitTrackr" target='_blanks'>Source Code</a>
+                      </li>
                   </ul>  
                 </div>            
             </div>
           </div>
-
-          {/*
-            <div className={"content-box" + ' ' + 'projects'}>
-              <article>
-                <header>
-                  InterVids
-                  <a href="https://github.com/vtantonio20/InterVids" target='_blank' rel='noopener noreferrer'>(LINK)</a>
-                </header>
-                <div className="project-body">
-                  <img  src={INTERVIDS}></img>
-                </div>
-                <footer>
-                  <p>For my software engineering class, I helped to create a web platform focusing on classroom interactions. This platform was video focused, allowing teachers to upload lecture videos, and students to watch those lecture videos. A major feature I implemented for this application was the chat system.</p>
-                  <ul>
-                    <li>Angular</li>
-                    <li>Firebase</li>
-                    <li>Tailwind CSS</li>
-                  </ul>
-                </footer>
-              </article>
-
-            </div>
-            */}
         </div>
     </section>
   )
