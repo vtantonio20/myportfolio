@@ -56,3 +56,25 @@
     .projects article footer{border-top: none; }
 
 }
+
+#Projects h4{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-style: italic;
+}
+#Projects .content-box{
+    padding:1rem;    
+}
+#Projects .section-container{
+    border-bottom: 1px solid;
+    padding-left:1rem;    
+    padding-right:1rem;
+}
+
+#Projects .section-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+  }
+  

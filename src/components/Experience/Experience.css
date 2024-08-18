@@ -9,4 +9,6 @@
 }
 #Experience .section-container{
     border-bottom: 1px solid;
+    padding-left:1rem;    
+    padding-right:1rem;
 }

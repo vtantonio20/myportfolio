@@ -1,15 +1,21 @@
 {
     "skills": [
         {
-            "type":"Mobile Framework",
-            "name":"React Native",
+            "type":"Web",
+            "name":"React",
             "img":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
             "link":""
         },
         {
-            "type":"Web Framework",
+            "type":"Web",
             "name":"Angular",
             "img":"https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+            "link":""
+        },
+        {
+            "type":"Web",
+            "name":"Apache CXF",
+            "img":"https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_b350900e1c1cde239f398145fc13d8f3/apache-cxf.jpg",
             "link":""
         },
         {
@@ -55,21 +61,9 @@
             "link":""
         },
         {
-            "type":"Prototyping Tool",
-            "name":"Figma",
-            "img":"https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-            "link":""
-        },
-        {
-            "type":"Code Management",
+            "type":"Version Control",
             "name":"Git",
             "img":"https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-            "link":""
-        },
-        {
-            "type":"Cloud Technology",
-            "name":"Firebase",
-            "img":"https://firebase.google.com/downloads/brand-guidelines/SVG/logo-built_white.svg",
             "link":""
         }
     ]
