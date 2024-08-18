@@ -11,7 +11,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/victor-torres-a57170224/" target='_blank' rel='noopener noreferrer'>
                       <img className="logo" src='https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo.png'></img></a>
                     <a href="https://github.com/vtantonio20" target='_blank' rel='noopener noreferrer'>
-                      <img className="logo" src='https://github.githubassets.com/images/modules/logos_page/Octocat.png'></img></a>
+                      <img className="logo" src='https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png'></img></a>
                     <a href="" target='_blank' rel='noopener noreferrer'>
                       <img className="logo" src='https://www.downloadclipart.net/large/31964-blue-email-clipart.png'></img></a>
                 </div>
@@ -25,8 +25,6 @@ export default function Footer() {
             <div><span> Thank you for viewing my portfolio website!</span></div>
         </div>
       </div>
-
-
     </section>
   )
 }
