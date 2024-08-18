@@ -23,19 +23,17 @@ export default function Experience() {
                 <div className="section-container">
                     <h4>Education</h4>
                     <div className="left-padding">
-                        <label htmlFor="UF"><h5>University of Florida | (Gainesville, FL)</h5></label>
+                        <label htmlFor="UF"><h5>University of Florida | (Gainesville, FL) | (January 2020 - May 2023)</h5></label>
                         <ul id="UF">
                             <li>Bachelor of Science in Computer Science</li>
                             <li>Cumulative GPA: 3.65</li>
                             <li>Graduation Date: 05/2023 </li>
-                            <li>Gainesville, FL </li>
                         </ul>
-                        <label htmlFor="GCSC"><h5>Gulf Coast State College (Panama City, FL)</h5></label>
+                        <label htmlFor="GCSC"><h5>Gulf Coast State College | (Panama City, FL) | (August 2019 - December 2020)</h5></label>
                         <ul id="GCSC">
                             <li>Associate of Arts in Liberal Arts</li>
                             <li>Cumulative GPA: 3.7</li>
                             <li>Graduation Date: 12/2020 </li>
-                            <li>Panama City, FL </li>
                         </ul>
                     </div>
                 </div>
