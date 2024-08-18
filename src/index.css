@@ -72,6 +72,12 @@ h1,h2{
   justify-content:center;
 }
 
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width:800px){
   .content-box{
     border:0px; border-top:2px solid; border-bottom:2px solid;

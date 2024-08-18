@@ -8,10 +8,26 @@ export default function Projects() {
         <h1>Projects</h1>
         <div className="flex-center">
           <div className="content-box">
-            <div className="p-grid">
-              <ProjectsCard img={INTERVIDS}></ProjectsCard>
-              <ProjectsCard img={INTERVIDS}></ProjectsCard>
-
+            <div className="section-container">
+              <div className="left-padding">
+                <label htmlFor="FITTRACKR"><h5>FitTrackr</h5></label>
+                  <ul id="FITTRACKR">
+                      <li>Fitness app to track gym gains.</li>
+                      <iframe width="420" height="315"
+                      src="https://youtu.be/t63OnGeiizw">
+                      </iframe> 
+                      <iframe
+        width="560"
+        height="315"
+        src="https://youtu.be/t63OnGeiizw"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+                      <li><a href="https://youtu.be/t63OnGeiizw" target='__blank__'>link </a></li>
+                  </ul>  
+                </div>            
             </div>
           </div>
 

@@ -2,11 +2,11 @@ import React from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import './About.css'
 export default function About() {
-  const ME = require('../../assets/images/ME.jpg')
+  const ME = require('../../assets/images/IMG_7278.jpg')
   const pdf = require('../../assets/pdf/resume.pdf')
 
   return (
-    
+    <>
     <section id="About">
       <label htmlFor="About"></label><h1>About Me</h1>
       <div className="flex-center">
@@ -14,7 +14,7 @@ export default function About() {
           <div className="container-wrapper">
             <span className="side">
               <h2>Hi, my name is<br/>Victor Torres!</h2>
-              <p> I am a third year student interested in software development and am studying Computer Science at the University of Florida. I enjoy creating visually appealing, responsive, front end applications using HTML, CSS and Typescript.</p> 
+              <p>As a passionate software developer, I thrive on turning complex problems into elegant solutions. With a strong foundation in Java, Python, and modern web technologies, I enjoy every aspect of the development process, from brainstorming ideas to deploying robust applications. My experience spans creating intuitive user interfaces with React Native to building powerful backends with Flask and Java frameworks. I love learning new technologies and continuously improving my skills, whether it's mastering the latest JavaScript library or optimizing a database query. For me, software development isn't just a job—it's a craft that I am dedicated to honing every day.</p> 
             </span>
             <span className="side">
               <img src={ME} ></img></span>
@@ -30,5 +30,7 @@ export default function About() {
         </div>
       </div>
     </section>
+ 
+  </>
   )
 }
