@@ -12,3 +12,13 @@
     padding-left:1rem;    
     padding-right:1rem;
 }
+
+#Experience label {
+    padding: 1rem;
+}
+#Experience label ul{
+    padding: 0; list-style-type: none;
+}
+.school{
+   margin: 0; list-style-type: none; padding-left: 1rem;
+}
